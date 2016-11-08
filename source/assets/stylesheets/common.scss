@@ -1,0 +1,37 @@
+body {
+  height: 100%;
+  width: 100%;
+
+  .header {
+    position: fixed;
+    height: 70px;
+    padding: 10px 0;
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    border-bottom: solid 1px black;
+  }
+  .content {
+    padding-top: 95px;
+  }
+  
+  .footer {
+    margin-top: 10px;
+    height: 70px;
+    text-align: center;
+    padding: 10px 0;
+  }    
+}
+.row {
+  margin-bottom: 0px;
+}
+
+.switch label input[type=checkbox]:checked+.lever, .switch label input[type=checkbox]:checked+.lever:after {
+  background-color: #ffca28;
+}
+
+.btn {
+  text-transform: none;
+}

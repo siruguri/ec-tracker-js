@@ -1,0 +1,3 @@
+.aws_secrets/
+build/
+source/assets/bower_components/

@@ -1,0 +1,27 @@
+{
+  "name": "ectracker",
+  "authors": [
+    "Sameer Siruguri <sameer@dstrategies.org>"
+  ],
+  "description": "Electoral College Tracker",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "cptii"
+  ],
+  "license": "MIT",
+  "homepage": "https://www.dstrategies.org/",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "materialize": "^0.97.8",
+    "jquery": "^3.0",
+    "underscore": "^1.8.3"
+  }
+}

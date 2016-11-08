@@ -1,0 +1,4 @@
+export TESTER1=tester1
+export AWS_S3_BUCKET=www.yourdomain.io
+export AWS_S3_ID=AKIAsomething
+export AWS_SECRET_KEY=uuNm89/KmetYu89HIl10G/etc/you/get/it

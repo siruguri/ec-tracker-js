@@ -1,0 +1,12 @@
+#states
+%script{type: 'text/template', id: 'switch-template'}
+  %input.called{id: "<%- key + '_called_id3' %>",
+                name: "<%- key + '_called' %>", type: 'radio', "data-val" => 'none'}
+  %label{for: "<%- key + '_called_id3' %>"}
+    None
+  %input.called{id: "<%- key + '_called_id1' %>", name: "<%- key + '_called' %>", type: 'radio', "data-val" => 'dem'}
+  %label{for: "<%- key + '_called_id1' %>"}
+    Dem
+  %input.called{id: "<%- key + '_called_id2' %>", name: "<%- key + '_called' %>", type: 'radio', "data-val" => 'rep'}
+  %label{for: "<%- key + '_called_id2' %>"}
+    GOP

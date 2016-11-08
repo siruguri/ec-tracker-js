@@ -1,0 +1,10 @@
+!!! html
+%html{lang: "en"}
+  %head
+    = partial 'head'
+  %body
+    = partial 'content_header'
+    .content
+      = yield
+    = partial 'content_footer'
+
